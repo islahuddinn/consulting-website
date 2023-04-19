@@ -4,9 +4,9 @@ import ContactSidebar from '../components/ContactSidebar/ContactSidebar';
 
 const contactInfo = {
     numberOne: "+1 469-237-8402",
-    numberTwo: "+1 469-237-8402",
+    // numberTwo: "+1 469-237-8402",
     emailOne: "hello@barakatax.com",
-    emailTwo: "hello@barakatax.com",
+    // emailTwo: "hello@barakatax.com",
     locationOne: "3101 E Abram ST, Ste 102 Arlington, Texas, 76010, USA",
     locationTwo: "3101 E Abram ST, Ste 102 Arlington, Texas 76010, USA"
 };
@@ -40,7 +40,7 @@ const Contact = () => {
                     <div className="row">
                         <div className="col-lg-12">
                             <div className="quomodo-map grayscale"> 
-                             <iframe title = "myFrame" src="https://maps.google.com/maps?width=720&amp;height=600&amp;hl=en&amp;coord=39.966528,-75.158284&amp;q=1%20Grafton%20Street%2C%20Dublin%2C%20Ireland+(My%20Business%20Name)&amp;ie=UTF8&amp;t=p&amp;z=16&amp;iwloc=B&amp;output=embed" scrolling="no"></iframe>                      
+                             {/* <iframe title = "myFrame" src="https://maps.google.com/maps?width=720&amp;height=600&amp;hl=en&amp;coord=39.966528,-75.158284&amp;q=1%20Grafton%20Street%2C%20Dublin%2C%20Ireland+(My%20Business%20Name)&amp;ie=UTF8&amp;t=p&amp;z=16&amp;iwloc=B&amp;output=embed" scrolling="no"></iframe>                       */}
                             
                             </div>
                         </div>
